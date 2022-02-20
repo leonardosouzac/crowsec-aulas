@@ -1,0 +1,11 @@
+exemplo de rest api pattern padrão:
+
+/user - GET/POST (permite listar usuários ou criar um novo)
+
+/user/{id} - GET/PUT (listar usuário X ou alterar esse usuário)
+
+/user/{id}
+
+/user/{id}/resetpassword - GET/POST (pedir p/ alterar senha do usuário, ex email de redefinição)
+
+/user/{id}/resetpassword/3123123-1(token) - GET/PUT (alterar senha do usuário no DB)
