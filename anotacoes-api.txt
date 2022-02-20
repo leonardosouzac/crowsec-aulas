@@ -1,0 +1,17 @@
+mais relevantes:
+    1 - rest
+    2 - graphql
+    3 - soap
+
+rest (representational state transfer):
+    - pegar: GET
+    - criar: POST 
+    - att: PUT (possibilidades IDOR)
+graphql:
+    linguagem de consulta criada pelo facebook.
+    - uma instrução para várias tarefas
+soap:
+    - já foi muito utilizado
+    - utiliza http e xml
+    - dividido em envelope, header e body (como se fosse uma carta)
+    - linguagem de marcação
